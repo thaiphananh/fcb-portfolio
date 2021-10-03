@@ -1,0 +1,67 @@
+* {
+	font-family: "Roboto", sans-serif;
+	/*in this case: sans-serif is the backup font, inc case the google font doesn't work*/
+}
+
+h1, h2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+}
+
+.red-text {
+	color: red;
+}
+/*CSS Specificity*/
+/*
+selector {
+	css-attribute1: value;
+	css-attribute2: value;
+	css-attribute3: value;
+}
+
+*/
+
+#landing {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.jumbotron {
+	background-color: transparent;
+}
+
+#gallery {
+	height: 75vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+h2 {
+	color: #007bff;
+}
+
+.tools {
+	padding: 25px;
+	height: 200px;
+	border: 5px solid #f2f2f2;
+	margin: 20px;
+	width: 75%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
